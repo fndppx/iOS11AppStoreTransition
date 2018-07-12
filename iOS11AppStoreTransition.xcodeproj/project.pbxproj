@@ -18,7 +18,6 @@
 		AB402CA91F9D95C900098E92 /* QCAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CA11F9D95C900098E92 /* QCAllViewController.m */; };
 		AB402CAA1F9D95C900098E92 /* QCCardTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CA31F9D95C900098E92 /* QCCardTransition.m */; };
 		AB402CAB1F9D95C900098E92 /* QCCoursesDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CA51F9D95C900098E92 /* QCCoursesDetailController.m */; };
-		AB402CAC1F9D95C900098E92 /* QCMoreCoursesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CA71F9D95C900098E92 /* QCMoreCoursesListController.m */; };
 		AB402CB21F9D968100098E92 /* QCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CB11F9D968100098E92 /* QCTabBarController.m */; };
 		AB402CBF1F9D970800098E92 /* QCChoiceCourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CB51F9D970800098E92 /* QCChoiceCourseCell.m */; };
 		AB402CC01F9D970800098E92 /* QCChoiceCourseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB402CB61F9D970800098E92 /* QCChoiceCourseCell.xib */; };
@@ -28,9 +27,6 @@
 		AB402CC41F9D970800098E92 /* QCMoreCourseListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CBD1F9D970800098E92 /* QCMoreCourseListCell.m */; };
 		AB402CC51F9D970800098E92 /* QCMoreCourseListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB402CBE1F9D970800098E92 /* QCMoreCourseListCell.xib */; };
 		AB402CC81F9D973100098E92 /* QCBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CC71F9D973100098E92 /* QCBaseCell.m */; };
-		AB402CCD1F9D977B00098E92 /* QCRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CCC1F9D977B00098E92 /* QCRefreshTableView.m */; };
-		AB402CD01F9D984D00098E92 /* QCLoopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CCF1F9D984D00098E92 /* QCLoopScrollView.m */; };
-		AB402CD31F9D9AF900098E92 /* QCBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB402CD21F9D9AF800098E92 /* QCBaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,8 +70,6 @@
 		AB402CA31F9D95C900098E92 /* QCCardTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCardTransition.m; sourceTree = "<group>"; };
 		AB402CA41F9D95C900098E92 /* QCCoursesDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCoursesDetailController.h; sourceTree = "<group>"; };
 		AB402CA51F9D95C900098E92 /* QCCoursesDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCoursesDetailController.m; sourceTree = "<group>"; };
-		AB402CA61F9D95C900098E92 /* QCMoreCoursesListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCMoreCoursesListController.h; sourceTree = "<group>"; };
-		AB402CA71F9D95C900098E92 /* QCMoreCoursesListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCMoreCoursesListController.m; sourceTree = "<group>"; };
 		AB402CAF1F9D966D00098E92 /* QCUIToobox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCUIToobox.h; sourceTree = "<group>"; };
 		AB402CB01F9D968100098E92 /* QCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCTabBarController.h; sourceTree = "<group>"; };
 		AB402CB11F9D968100098E92 /* QCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCTabBarController.m; sourceTree = "<group>"; };
@@ -92,12 +86,6 @@
 		AB402CBE1F9D970800098E92 /* QCMoreCourseListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QCMoreCourseListCell.xib; sourceTree = "<group>"; };
 		AB402CC61F9D973100098E92 /* QCBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCBaseCell.h; sourceTree = "<group>"; };
 		AB402CC71F9D973100098E92 /* QCBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCBaseCell.m; sourceTree = "<group>"; };
-		AB402CCB1F9D977B00098E92 /* QCRefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCRefreshTableView.h; sourceTree = "<group>"; };
-		AB402CCC1F9D977B00098E92 /* QCRefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCRefreshTableView.m; sourceTree = "<group>"; };
-		AB402CCE1F9D984D00098E92 /* QCLoopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCLoopScrollView.h; sourceTree = "<group>"; };
-		AB402CCF1F9D984D00098E92 /* QCLoopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCLoopScrollView.m; sourceTree = "<group>"; };
-		AB402CD11F9D9AF800098E92 /* QCBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCBaseViewController.h; sourceTree = "<group>"; };
-		AB402CD21F9D9AF800098E92 /* QCBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCBaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +183,6 @@
 				AB402CA31F9D95C900098E92 /* QCCardTransition.m */,
 				AB402CA41F9D95C900098E92 /* QCCoursesDetailController.h */,
 				AB402CA51F9D95C900098E92 /* QCCoursesDetailController.m */,
-				AB402CA61F9D95C900098E92 /* QCMoreCoursesListController.h */,
-				AB402CA71F9D95C900098E92 /* QCMoreCoursesListController.m */,
 			);
 			path = All;
 			sourceTree = "<group>";
@@ -240,12 +226,6 @@
 		AB402CCA1F9D976600098E92 /* General */ = {
 			isa = PBXGroup;
 			children = (
-				AB402CCE1F9D984D00098E92 /* QCLoopScrollView.h */,
-				AB402CCF1F9D984D00098E92 /* QCLoopScrollView.m */,
-				AB402CCB1F9D977B00098E92 /* QCRefreshTableView.h */,
-				AB402CCC1F9D977B00098E92 /* QCRefreshTableView.m */,
-				AB402CD11F9D9AF800098E92 /* QCBaseViewController.h */,
-				AB402CD21F9D9AF800098E92 /* QCBaseViewController.m */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -462,15 +442,11 @@
 			files = (
 				AB402CA91F9D95C900098E92 /* QCAllViewController.m in Sources */,
 				AB402CC41F9D970800098E92 /* QCMoreCourseListCell.m in Sources */,
-				AB402CAC1F9D95C900098E92 /* QCMoreCoursesListController.m in Sources */,
-				AB402CD31F9D9AF900098E92 /* QCBaseViewController.m in Sources */,
 				AB402CC11F9D970800098E92 /* QCCourseCell.m in Sources */,
 				AB402CB21F9D968100098E92 /* QCTabBarController.m in Sources */,
 				AB402CBF1F9D970800098E92 /* QCChoiceCourseCell.m in Sources */,
 				AB402CC31F9D970800098E92 /* QCCoursesCategorySection.m in Sources */,
 				AB402C7C1F9D949500098E92 /* main.m in Sources */,
-				AB402CCD1F9D977B00098E92 /* QCRefreshTableView.m in Sources */,
-				AB402CD01F9D984D00098E92 /* QCLoopScrollView.m in Sources */,
 				AB402C6E1F9D949500098E92 /* AppDelegate.m in Sources */,
 				AB402CAA1F9D95C900098E92 /* QCCardTransition.m in Sources */,
 				AB402CC81F9D973100098E92 /* QCBaseCell.m in Sources */,

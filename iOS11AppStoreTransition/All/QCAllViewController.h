@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QCBaseViewController.h"
-@interface QCAllViewController :QCBaseViewController
+@interface QCAllViewController :UIViewController
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, assign) NSInteger currentIndex;
 

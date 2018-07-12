@@ -8,9 +8,7 @@
 
 #import "QCAllViewController.h"
 #import "QCCourseCell.h"
-#import "QCLoopScrollView.h"
 #import "QCCoursesDetailController.h"
-#import "QCMoreCoursesListController.h"
 #import "Masonry.h"
 #import "QCUIToobox.h"
 #import "ReactiveObjC.h"
@@ -31,27 +29,10 @@ static const CGFloat sectionHeaderHeight = 52;
     [QCCourseCell registerToTableView:self.tableView];
     [self.tableView setTableHeaderView:[self headerView]];
     self.tableView.separatorStyle = NO;
-//    http://cnstatic01.e.vhall.com/upload/webinars/img_url/14/07/1407086d801f383187d87a0b79feac78.png?size=640x360"),URL(string: "http://pic32.nipic.com/20130815/10675263_110224052319_2.jpg
-    
-//    QCLoopScrollView * scrollView = [[QCLoopScrollView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
-//    [self.view addSubview:scrollView];
-//    scrollView.imageURLArray = @[@"http://cnstatic01.e.vhall.com/upload/webinars/img_url/14/07/1407086d801f383187d87a0b79feac78.png?size=640x360",@"http://cnstatic01.e.vhall.com/upload/webinars/img_url/14/07/1407086d801f383187d87a0b79feac78.png?size=640x360"];
 }
 - (UIView*)headerView{
-//    QCChoiceContentView * view = QCView(@"QCChoiceContentView");
-//    view.frame = CGRectMake(0, 0, QCScreenWidth, 320);
-//    view.contentScrollView.contentSize = CGSizeMake(3*(184+20)+20, view.contentScrollView.frame.size.height);
-//    for (int i = 0;  i<3;i++) {
-//        QCChoiceCourseView * itemView = QCView(@"QCChoiceCourseView");
-//        itemView.frame = CGRectMake(20+i*(184+20), 0, 184,view.contentScrollView.frame.size.height);
-//        [view.contentScrollView addSubview:itemView];
-//    }
-//    return view;
-   // 375/360
-    QCLoopScrollView * scrollView = [[QCLoopScrollView alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width*360/375)];
-    [self.view addSubview:scrollView];
-    scrollView.imageURLArray = @[@"http://pic4.nipic.com/20091217/3885730_124701000519_2.jpg",@"http://pic4.nipic.com/20091217/3885730_124701000519_2.jpg?size=640x360"];
-    return scrollView;
+    return nil;
+  
 }
 //- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 //    return 106;
@@ -124,8 +105,6 @@ static const CGFloat sectionHeaderHeight = 52;
     return hf;
 }
 - (void)moreButtonPressed{
-    QCMoreCoursesListController * vc = QCViewController(@"AllSb", @"QCMoreListVC");
-    [self.navigationController pushViewController:vc animated:YES];
 }
 - (nullable NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section{
     return nil;
